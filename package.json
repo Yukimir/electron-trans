@@ -1,0 +1,17 @@
+{
+  "name": "electron-trans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^7.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "start-linux":"electron --enable-transparent-visuals --disable-gpu ."
+  },
+  "author": "",
+  "license": "ISC"
+}
